@@ -10,7 +10,7 @@ To protect against fake access points, it is necessary to develop effective meth
 - To install all the necessary libraries, use requirements.txt
 - `pip install requirements.txt`
 
-# Starting
+# Start
 To start just 
 ```python
 python main.py
