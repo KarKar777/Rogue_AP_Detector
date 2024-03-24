@@ -8,6 +8,10 @@ To protect against fake access points, it is necessary to develop effective meth
 # Install
 - Python 3.9 is used for this project
 - To install all the necessary libraries, use requirements.txt
-/```
-pip install requirements.txt
-```\
+- `pip install requirements.txt`
+
+# Starting
+To start just 
+```python
+python main.py
+```
