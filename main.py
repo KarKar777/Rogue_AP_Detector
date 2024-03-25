@@ -170,34 +170,12 @@ class MyWin(QtWidgets.QWidget, Ui_MainWindow):
         event.accept()
 
 
-if __name__ == "__main__":
-    import sys
-
-    app = QtWidgets.QApplication(sys.argv)
-#    Dialog = QtWidgets.QWidget()
-#    ui = Ui_Dialog()
-#    ui.setupUi(Dialog)
-#    Dialog.show()
-    w = MyWin()
-    w.show()
-    sys.exit(app.exec_())
 
 def main():
-
     app = QtWidgets.QApplication(sys.argv)
-    #    Dialog = QtWidgets.QWidget()
-    #    ui = Ui_Dialog()
-    #    ui.setupUi(Dialog)
-    #    Dialog.show()
     w = MyWin()
     w.show()
     sys.exit(app.exec_())
-    """app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())"""
 
 if __name__ == "__main__":
     import sys
