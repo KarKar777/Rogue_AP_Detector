@@ -108,16 +108,6 @@ class Ui_MainWindow(object):
     def add_functions(self):
         self.start_detecting_btn.clicked.connect(self.start_detecting)
 
-    def closeEvent(self, event):
-        print("sdfsdfsdfs")
-        # Ask for confirmation before closing
-        confirmation = QMessageBox.question(self, "Confirmation", "Are you sure you want to close the application?", QMessageBox.Yes | QMessageBox.No)
-
-        if confirmation == QMessageBox.Yes:
-            event.accept()  # Close the app
-        else:
-            event.ignore()  # Don't close the app
-
     def start_detecting(self):
         if self.start_detecting_btn.text() == "START detecting":
             with open("BOOL", "w") as f:
