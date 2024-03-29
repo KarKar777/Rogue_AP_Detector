@@ -1,4 +1,4 @@
-# Rogue_AP_Detector
+# Rogue AP Detector
 This software is designed to detect rogue access points
 
 In the modern world, with the development of technology and the increasing use of wireless networks, the problem of fake access points is becoming more and more relevant. Fake access points are devices that mimic real wireless networks, but are actually intended to obtain confidential information from users who connect to them.
