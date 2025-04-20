@@ -12,6 +12,6 @@ To protect against fake access points, it is necessary to develop effective meth
 
 # Start
 To start just 
-```python
-python main.py
+```python3
+python3 main.py
 ```
